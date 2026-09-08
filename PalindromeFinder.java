@@ -13,7 +13,7 @@ import java.util.*; // Lets the code read text from a file, such as numbers, wor
 public class PalindromeFinder {
     public static void main(String[] args) {
 
-        File wordFile = new File("src/wordList.txt"); //Create a variable for wordList file
+        File wordFile = new File("wordList.txt"); //Create a variable for wordList file
         File palindromesFile = new File("palindromes.txt"); //Create a variable for palindromes file
 
         //Use a try catch to implement the writing and reading of each file.
