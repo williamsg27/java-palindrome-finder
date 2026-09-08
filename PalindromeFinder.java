@@ -10,7 +10,7 @@
 import java.io.*; //Contains classes used for reading files, writing files, and handling file errors
 import java.util.*; // Lets the code read text from a file, such as numbers, words, and lines
 
-public class palindromeGabrielWilliams {
+public class PalindromeFinder {
     public static void main(String[] args) {
 
         File wordFile = new File("src/wordList.txt"); //Create a variable for wordList file
